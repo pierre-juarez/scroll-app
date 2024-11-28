@@ -29,6 +29,9 @@
                         <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
                         <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="didTapScreen1:" destination="-1" eventType="touchUpInside" id="ZNH-3W-Plr"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tI-MG-6bS">
                     <rect key="frame" x="71.666666666666686" y="354" width="250" height="45"/>
@@ -41,6 +44,9 @@
                         <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
                         <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="didTapScreen2:" destination="-1" eventType="touchUpInside" id="hTf-vn-lad"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9U-AG-5yl">
                     <rect key="frame" x="71.666666666666686" y="449" width="250" height="45"/>
@@ -53,6 +59,9 @@
                         <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
                         <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="didTapScreen3:" destination="-1" eventType="touchUpInside" id="lJ1-7f-5z9"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

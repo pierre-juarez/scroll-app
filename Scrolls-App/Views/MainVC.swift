@@ -9,6 +9,7 @@ import UIKit
 
 class MainVC: UIViewController {
     
+    
     init(){
         super.init(nibName: "MainVC", bundle: nil)
     }
@@ -21,18 +22,20 @@ class MainVC: UIViewController {
         super.viewDidLoad()
         self.title = "Scrollviews"
 
-        // Do any additional setup after loading the view.
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func didTapScreen1(_ sender: Any) {
+        self.navigationController?.pushViewController(Screen1VC(), animated: true)
     }
-    */
+    
+    @IBAction func didTapScreen2(_ sender: Any) {
+        self.navigationController?.pushViewController(Screen2VC(), animated: true)
+    }
+    
+    @IBAction func didTapScreen3(_ sender: Any) {
+        self.navigationController?.pushViewController(Screen3VC(), animated: true)
+    }
+
 
 }
